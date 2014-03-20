@@ -1,0 +1,74 @@
+VERSION BUILD=8530828 RECORDER=FX
+
+SET !TIMEOUT_PAGE 20
+SET !EXTRACT_TEST_POPUP NO
+SET !ERRORIGNORE YES
+
+
+TAG POS=1 TYPE=LABEL FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=FOR:num_cpf
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=TYPE:text&&READONLY:&&CLASS:input_medium_transaction_view_disable&&ID:num_cpf&&NAME:num_cpf EXTRACT=TXT
+SET !VAR1 {{!EXTRACT}}
+SET !EXTRACT NULL
+
+TAB OPEN
+
+'TAB T=2	ANTIGO \/ \/ SEM LOG AUTOMÁTICO
+'URL GOTO=https://infobusca.serasa.com.br/default.aspx
+'		/\
+'					\/  NOVO \/  COM LOG AUTOMÁTICO
+TAB T=2
+URL GOTO=https://sitenet.serasa.com.br/elementos_estrutura/login.htm
+
+'aqui \/
+'TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:transacional ATTR=TYPE:submit&&ONCLICK:doChange();&&CLASS:ok&&VALUE:<SP>&&ID:btnOk
+
+TAG POS=1 TYPE=A ATTR=TITLE:Infobusca<SP><b><font<SP>style='color:red'>Novo</font></b>&&HREF:javascript:doSubmit(37,'S',<SP>'S')
+
+'					/\ NOVO /\   COM LOG AUTOMÁTICO
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:aspnetForm ATTR=ID:ctl00_ContentPlaceHolder1_txtCPF CONTENT={{!VAR1}}
+
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=TYPE:submit&&CLASS:procurar&&ID:ctl00_ContentPlaceHolder1_btnProcurar&&ONCLICK:javascript:return<SP>Show();WebForm_DoPostBackWithOptions(new<SP>WebForm_PostBackOptions("ctl00$ContentPlaceHolder1$btnProcurar",<SP>"",<SP>true,<SP>"",<SP>"",<SP>false,<SP>false))&&VALUE:&&NAME:ctl00$ContentPlaceHolder1$btnProcurar
+'TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=TYPE:submit&&ID:ctl00_ContentPlaceHolder1_btnProcurar&&ONCLICK:javascript:return<SP>Show();WebForm_DoPostBackWithOptions(new<SP>WebForm_PostBackOptions("ctl00$ContentPlaceHolder1$btnProcurar",<SP>"",<SP>true,<SP>"",<SP>"",<SP>false,<SP>false))&&VALUE:Procurar&&NAME:ctl00$ContentPlaceHolder1$btnProcurar
+
+TAG POS=1 TYPE=A ATTR=HREF:javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFind$ctl02$lnkAbrir','')&&CLASS:visualizar&&ID:ctl00_ContentPlaceHolder1_grdFind_ctl02_lnkAbrir
+'POS=1 TYPE=A ATTR=HREF:javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFind$ctl02$lnkAbrir','')&&ID:ctl00_ContentPlaceHolder1_grdFind_ctl02_lnkAbrir
+
+
+TAG POS=1 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR2 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=2 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR3 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=3 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR4 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=4 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR5 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=7 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR6 {{!EXTRACT}}
+SET !EXTRACT NULL
+'tel
+'TAG POS=1 TYPE=TD ATTR=CLASS:col3 EXTRACT=TXT
+'SET !VAR7 {{!EXTRACT}}
+'SET !EXTRACT NULL
+
+TAB T=1
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:coments_data ATTR=ID:user_comment&&ROWS:5&&COLS:60&&NAME:user_comment CONTENT=CPF:<SP>{{!VAR2}}<SP>Nome:<SP>{{!VAR3}}<SP>Idade:<SP>{{!VAR4}}<SP>Data<SP>de<SP>Nascimento:<SP>{{!VAR5}}<SP>Nome<SP>da<SP>Mãe:<SP>{{!VAR6}}<SP><SP><SP><BR><SP>
+
+'
+
+EVENT TYPE=CLICK SELECTOR="#user_comment" BUTTON=0
+EVENTS TYPE=KEYPRESS SELECTOR="#user_comment" KEYS="[37,37]"
+EVENT TYPE=KEYPRESS SELECTOR="#user_comment" KEY=8 MODIFIERS="ctrl"
+EVENT TYPE=KEYPRESS SELECTOR="#user_comment" KEY=8 MODIFIERS="ctrl"
+EVENT TYPE=KEYPRESS SELECTOR="#user_comment" KEY=8 MODIFIERS="ctrl"
+
+
+
+'TAB T=2
+
+
+'PrimOox
