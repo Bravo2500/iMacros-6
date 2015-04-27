@@ -1,0 +1,17 @@
+VERSION BUILD=8530828 RECORDER=FX
+
+SET !EXTRACT_TEST_POPUP NO
+
+TAB T=1
+
+TAG POS=1 TYPE=LABEL FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=FOR:num_cpf
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=TYPE:text&&READONLY:&&CLASS:input_medium_transaction_view_disable&&ID:num_cpf&&NAME:num_cpf EXTRACT=TXT
+
+TAB OPEN
+TAB T=2
+
+URL GOTO=http://billing.boacompra.adm.intranet/transactions.php?transactions=execute&transaction_id=&order_number=&idt_gateway=&reference_number=&email=&cpf={{!EXTRACT}}&partner=&payment_method=&status=&date_order_start=&date_order_end=&date_delivery_start=&date_delivery_end=&qt_result=200&time=0.67521600+1388049621#result
+'TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:transactions_form ATTR=ID:cpf CONTENT={{!EXTRACT}}
+'TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:transactions_form ATTR=*
+
+'PrimOox
