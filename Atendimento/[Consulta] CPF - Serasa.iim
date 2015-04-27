@@ -25,5 +25,35 @@ TAG POS=1 TYPE=INPUT:SUBMIT FORM=ID:aspnetForm ATTR=TYPE:submit&&CLASS:procurar&
 TAG POS=1 TYPE=A ATTR=HREF:javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFind$ctl02$lnkAbrir','')&&CLASS:visualizar&&ID:ctl00_ContentPlaceHolder1_grdFind_ctl02_lnkAbrir
 'POS=1 TYPE=A ATTR=HREF:javascript:__doPostBack('ctl00$ContentPlaceHolder1$grdFind$ctl02$lnkAbrir','')&&ID:ctl00_ContentPlaceHolder1_grdFind_ctl02_lnkAbrir
 
+TAG POS=1 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR2 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=2 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR3 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=3 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR4 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=4 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR5 {{!EXTRACT}}
+SET !EXTRACT NULL
+TAG POS=7 TYPE=TD ATTR=CLASS:conteudo EXTRACT=TXT
+SET !VAR6 {{!EXTRACT}}
+SET !EXTRACT NULL
+'tel
+'TAG POS=1 TYPE=TD ATTR=CLASS:col3 EXTRACT=TXT
+'SET !VAR7 {{!EXTRACT}}
+'SET !EXTRACT NULL
+
+TAB T=1
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:coments_data ATTR=ID:user_comment&&ROWS:5&&COLS:60&&NAME:user_comment CONTENT=CPF:<SP>{{!VAR2}}<SP>Nome:<SP>{{!VAR3}}<SP>Idade:<SP>{{!VAR4}}<SP>Data<SP>de<SP>Nascimento:<SP>{{!VAR5}}<SP>Nome<SP>da<SP>Mãe:<SP>{{!VAR6}}<SP><SP><SP><BR><SP>
+
+
+EVENT TYPE=CLICK SELECTOR="#user_comment" BUTTON=0
+EVENTS TYPE=KEYPRESS SELECTOR="#user_comment" KEYS="[37,37]"
+EVENT TYPE=KEYPRESS SELECTOR="#user_comment" KEY=8 MODIFIERS="ctrl"
+EVENT TYPE=KEYPRESS SELECTOR="#user_comment" KEY=8 MODIFIERS="ctrl"
+EVENT TYPE=KEYPRESS SELECTOR="#user_comment" KEY=8 MODIFIERS="ctrl"
+
 
 'PrimOox
