@@ -1,0 +1,20 @@
+VERSION BUILD=8530828 RECORDER=FX
+TAB T=1
+
+SET !ERRORIGNORE YES
+SET !TIMEOUT_PAGE 15
+SET !EXTRACT_TEST_POPUP NO
+
+TAG POS=1 TYPE=LABEL FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=TXT:CPF
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=TYPE:text&&READONLY:&&CLASS:input_medium_transaction_view_disable&&ID:num_cpf&&NAME:num_cpf EXTRACT=TXT
+SET !VAR1 {{!EXTRACT}}
+
+
+TAB OPEN
+
+TAB T=2
+URL GOTO=http://www.receita.fazenda.gov.br/aplicacoes/atcta/cpf/ConsultaPublica.asp
+TAG POS=1 TYPE=INPUT:TEXT FORM=ID:theForm ATTR=ID:id_cpf CONTENT={{!EXTRACT}}
+'EVENT TYPE=CLICK SELECTOR="#captcha" BUTTON=0
+
+'PrimOox

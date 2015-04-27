@@ -1,0 +1,4 @@
+VERSION BUILD=8601111 RECORDER=FX
+TAB T=1
+
+TAG POS=1 TYPE=A ATTR=CLASS:btn_yellow&&HREF:javascript:openwindow('new')

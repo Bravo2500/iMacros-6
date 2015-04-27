@@ -1,0 +1,33 @@
+VERSION BUILD=8530828 RECORDER=FX
+
+SET !TIMEOUT_PAGE 15
+SET !EXTRACT_TEST_POPUP NO
+SET !ERRORIGNORE YES
+
+TAB T=1
+TAG POS=1 TYPE=LABEL FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=FOR:num_cpf
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:Dados<SP>do<SP>titular<SP>do<SP>cartão ATTR=TYPE:text&&READONLY:&&CLASS:input_medium_transaction_view_disable&&ID:num_cpf&&NAME:num_cpf EXTRACT=TXT
+SET !VAR1 {{!EXTRACT}}
+SET !EXTRACT NULL
+
+TAB OPEN
+
+TAB T=2
+URL GOTO=http://site2.allcheck.info/allcheck_produtos/techEngine?sid=allcheck_produtos&command=localizador
+
+
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:formX ATTR=TYPE:text&&MAXLENGTH:18&&SIZE:18&&ONFOCUS:PararTAB(this)&&ONKEYUP:Mostra(this,<SP>16)&&ONKEYPRESS:javascript:checkDouble(this);ChecarTAB()&&NAME:numeroDocumento CONTENT={{!VAR1}}
+TAG POS=1 TYPE=INPUT:BUTTON FORM=NAME:formX ATTR=TYPE:button&&ONCLICK:javascript:imprimir();&&ID:b1&&NAME:b1&&VALUE:Pesquisar&&CLASS:button
+
+'''
+
+'EVENT TYPE=CLICK SELECTOR="HTML>BODY>FORM>TABLE:nth-of-type(3)>TBODY>TR>TD>TABLE:nth-of-type(2)>TBODY>TR:nth-of-type(3)>TD:nth-of-type(2)>TABLE>TBODY>TR:nth-of-type(2)>TD>TABLE>TBODY>TR:nth-of-type(2)>TD" BUTTON=0 MODIFIERS="ctrl"
+'EVENT TYPE=KEYPRESS SELECTOR="HTML>BODY" CHAR="c"
+'FRAME F=0
+
+'TAB T=1
+'EVENT TYPE=CLICK SELECTOR="#user_comment" BUTTON=0
+'EVENT TYPE=KEYPRESS SELECTOR="#user_comment" CHAR="v"
+
+
+'PrimOox

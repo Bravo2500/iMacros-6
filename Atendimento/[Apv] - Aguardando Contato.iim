@@ -1,0 +1,7 @@
+VERSION BUILD=8530828 RECORDER=FX
+
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%5
+TAG POS=1 TYPE=INPUT:CHECKBOX FORM=NAME:Histórico<SP>da<SP>transação ATTR=TYPE:checkbox&&CHECKED:checked&&ID:send_comment_mail&&VALUE:1&&NAME:send_comment_mail CONTENT=NO
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+' PrimOox

@@ -1,0 +1,48 @@
+VERSION BUILD=8530828 RECORDER=FX
+
+
+SET !TIMEOUT_PAGE 1
+SET !ERRORIGNORE YES
+
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(2)>TD:nth-of-type(8)>A>IMG" BUTTON=1
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(3)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(4)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(5)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(6)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(7)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(8)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(9)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(10)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(11)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(12)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(13)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(14)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(15)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(16)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(17)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(18)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(19)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(20)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(21)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(22)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(23)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(24)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(25)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(26)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(27)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(28)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(29)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(30)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(31)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(32)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(33)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(34)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(35)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(36)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(37)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(38)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(39)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(40)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+EVENT TYPE=CLICK SELECTOR="#content>TABLE>TBODY>TR:nth-of-type(41)>TD:nth-of-type(8)>A>IMG" BUTTON=0 MODIFIERS="ctrl"
+
+' PrimOox

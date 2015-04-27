@@ -1,0 +1,3 @@
+VERSION BUILD=8601111 RECORDER=FX
+
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:coments_data ATTR=ID:user_comment&&ROWS:5&&COLS:60&&NAME:user_comment CONTENT=<BR><font<SP>color="red"><b><SP>nenhum<SP>dado<SP>no<SP><SP></b></font>

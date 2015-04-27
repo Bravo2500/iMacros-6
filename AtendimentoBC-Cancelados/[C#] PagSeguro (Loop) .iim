@@ -1,0 +1,12 @@
+VERSION BUILD=8510617 RECORDER=FX
+
+
+'SET !TIMEOUT_PAGE 1
+
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=TYPE:submit&&CLASS:btn_green&&VALUE:Salvar
+
+EVENT TYPE=KEYPRESS SELECTOR="HTML>BODY" KEY=9 MODIFIERS="ctrl"
+
+' PrimOox

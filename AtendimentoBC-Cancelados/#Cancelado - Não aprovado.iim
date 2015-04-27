@@ -1,0 +1,11 @@
+VERSION BUILD=8601111 RECORDER=FX
+
+
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment&&ROWS:5&&COLS:60&&NAME:order_comment CONTENT=Olá,<SP>-<SP>Por<SP>medida<SP>de<SP>segurança<SP>do<SP>BoaCompra,<SP>suas<SP>compras<SP>por<SP>cartão<SP>de<SP>crédito,<SP>PagSeguro<SP>ou<SP>conta<SP>Paypal<SP>já<SP>não<SP>serão<SP>mais<SP>aceitas.<SP>Serão<SP>aceitas<SP>compras<SP>somente<SP>por<SP>depósito,<SP>transferência<SP>ou<SP>por<SP>boleto<SP>bancário.<SP>-<SP>Essa<SP>compra<SP>será<SP>cancelada<SP>e<SP>o<SP>valor<SP>será<SP>estornado<SP>na<SP>sua<SP>conta,<SP>o<SP>Sr.(a)<SP>poderá<SP>usá-lo<SP>para<SP>comprar<SP>com<SP>outra<SP>forma<SP>de<SP>pagamento.
+
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=CLASS:input_medium_transaction_view&&ID:nam_status&&NAME:nam_status CONTENT=%22
+
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=TYPE:submit&&CLASS:btn_green&&VALUE:Salvar
+
+
+'PrimOox
