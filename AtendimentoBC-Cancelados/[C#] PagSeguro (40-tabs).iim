@@ -1,0 +1,211 @@
+VERSION BUILD=8510617 RECORDER=FX
+SET !TIMEOUT_PAGE 1
+
+SET ERROR_IGNORE NO
+
+TAB T=2
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=TYPE:submit&&CLASS:btn_green&&VALUE:Salvar
+
+TAB T=3
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=4
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=5
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=6
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=7
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=8
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+SET !TIMEOUT_PAGE 1
+
+TAB T=9
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=10
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=11
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=12
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=13
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=14
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=15
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=16
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=17
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=18
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=19
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=20
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=21
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=22
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=23
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=24
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=25
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=26
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=27
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=28
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+SET !TIMEOUT_PAGE 1
+
+TAB T=29
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=30
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=31
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=32
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=33
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=34
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=35
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=36
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=37
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=38
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=39
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=40
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+TAB T=41
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%4
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Pedido<SP>enviado<SP>para<SP>cancelamento<SP>devido<SP>à<SP>prazo<SP>de<SP>contato<SP>expirado.<SP>O<SP>valor<SP>cobrado<SP>de<SP>seu<SP>Cartão<SP>de<SP>Crédito<SP>será<SP>estornado.
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+
+' PrimOox
