@@ -1,0 +1,7 @@
+VERSION BUILD=8530828 RECORDER=FX
+
+TAG POS=1 TYPE=TEXTAREA FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:order_comment CONTENT=Olá,<BR><BR>-<SP>Por<SP>favor,<SP>envie<SP>um<SP>e-mail<SP>para<SP>atendimento@boacompra.com<SP>com<SP>o<SP>número<SP>do<SP>pedido,<SP>nome<SP>do<SP>titular<SP>do<SP>cartão<SP>e<SP>telefone<SP>fixo<SP>(residencial<SP>ou<SP>comercial)<SP>com<SP>DDD<SP>para<SP>que<SP>possamos<SP>entrar<SP>em<SP>contato.<BR><BR>-<SP>Se<SP>preferir,<SP>envie<SP>um<SP>e-mail<SP>para<SP>bc_cartao@boacompra.com<SP>com<SP>a<SP>foto<SP>legível<SP>do<SP>RG<SP>e<SP>do<SP>cartão<SP>utilizado<SP>na<SP>compra<SP>(apagando<SP>os<SP>dados<SP>do<SP>cartão<SP>deixando<SP>apenas<SP>os<SP>quatro<SP>últimos<SP>dígitos<SP>e<SP>o<SP>nome<SP>do<SP>titular<SP>do<SP>cartão).<BR><BR>-<SP>Essa<SP>é<SP>uma<SP>medida<SP>de<SP>segurança<SP>do<SP>BoaCompra<SP>para<SP>compras<SP>feitas<SP>com<SP>essa<SP>forma<SP>de<SP>pagamento,<SP>assim<SP>que<SP>nos<SP>enviar<SP>o<SP>que<SP>foi<SP>solicitado<SP>poderemos<SP>dar<SP>continuidade<SP>ao<SP>processamento<SP>do<SP>seu<SP>pedido.
+TAG POS=1 TYPE=SELECT FORM=NAME:Histórico<SP>da<SP>transação ATTR=ID:nam_status CONTENT=%23
+TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:Histórico<SP>da<SP>transação ATTR=*
+
+' PrimOox
