@@ -1,0 +1,6 @@
+'first word
+SET !VAR1 EVAL("var f=\"{{!EXTRACT}}\"; f.split(' ')[0];")
+'all words but first
+SET !VAR2 EVAL("var original=\"{{!EXTRACT}}\"; original.substr(original.indexOf(' ') + 1);")
+'telefone
+SET !VAR3 EVAL("var original=\"{{!EXTRACT}}\"; original.replace(/[- ]/g,'');")
