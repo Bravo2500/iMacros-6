@@ -1,4 +1,4 @@
-BC-Macros
+iMacros
 =========
 iMacros
 http://imacros.net/
